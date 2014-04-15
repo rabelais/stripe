@@ -1,4 +1,2 @@
-$: << File.dirname(__FILE__)
-require 'app'
-
+require './app'
 run Sinatra::Application
